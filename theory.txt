@@ -72,3 +72,7 @@ Defined by start tag, some content and end tag
 6. List Tags - <ul> <ol> <li>
 
 7. Table Tags - table, tr, td, thead, tbody, th
+
+8. Form tags - Form, Input, textArea, select 
+
+9. Script Tags - <Script> , <noscript>
