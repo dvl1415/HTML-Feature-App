@@ -1,0 +1,20 @@
+  
+https://www.restapitutorial.com/httpstatuscodes.html
+
+https://developer.mozilla.org/en-US/docs/Web/HTML/Element
+
+https://docs.emmet.io/cheat-sheet/
+
+https://docs.emmet.io/abbreviations/
+
+https://getbootstrap.com/docs/5.0/content/tables/
+
+https://www.learningcontainer.com/sample-audio-file/ - For Sample video and Audio files
+
+https://themes.getbootstrap.com/
+
+https://www.w3schools.com/css/exercise.asp?filename=exercise_selectors1 - CSS Practice website
+
+https://app.testdome.com/t?GeneratorId=13 - HTML5, CSS3 Tests
+
+https://source.unsplash.com/ - Random Images
