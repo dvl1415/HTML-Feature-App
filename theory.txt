@@ -63,7 +63,7 @@ Defined by start tag, some content and end tag
 
 2. Meta Tags - DOCTYPE, <title> , link, meta, style 
 
-3. Text Tags -  <p>, <h1> to <h6>, strong>
+3. Text Tags -  <p>, <h1> to <h6>, <strong>
 
 4. Link Tag - <a>
 
