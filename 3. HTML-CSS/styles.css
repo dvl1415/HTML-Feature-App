@@ -1,0 +1,12 @@
+h1{
+    color: white;
+    background-color: crimson;
+    height: 200px;
+    width: 300px;
+}
+p{
+    background-color: darkcyan;
+    color: white;
+    height: 200px;
+    width: 300px;
+}

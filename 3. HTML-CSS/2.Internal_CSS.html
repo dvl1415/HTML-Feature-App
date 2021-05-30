@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS</title>
+    <style>
+        h1{
+             color:blue
+        }
+        p{
+            color: red
+        }
+        h2, h3{
+            color: yellowgreen;
+        }
+        .container{
+            color:darksalmon
+        }
+        #userInfo{
+            color: maroon;
+        }
+
+        #para3{
+            background-color: darkred;
+        }
+        .dhaval, .shivam, #pink{
+            font-size: 20px;
+            background-color: blue;
+            color: aliceblue;
+            width: 300px;
+            height: 200px;
+        } 
+    </style>
+</head>
+<body>
+
+    ***  NOTE: 1. For the container Internal style use .(name of the container) and for the ID internal style <br>
+               use #(name of the id) <br> <br>
+               2. Priority for the CSS order id > class > Element <br>
+               3. Disadvanatge of Internal CSS is can't apply the style to multiple external files
+                *** <br> <br> <br>
+    This is Internal Styling CSS :L As we're using the style code inside of the code <br>
+    <h1>A Blue heading</h1>
+    <h2>A Green Heading</h2>
+    <h3>A Green Hewading</h3>
+    <p>
+        Lorem ipsum dolor sit amet. <br>
+        Quia quos libero eos natus? <br>
+        Blanditiis dolor facilis unde maxime? <br>
+        Omnis nisi ea voluptas recusandae. <br>
+        Officia harum blanditiis natus fuga! <br>
+    </p>
+    <div class="container"></div>
+    <p class="container"></p>
+    <ul class="container">
+        <li>one</li>
+        <li>Two</li>
+        <li>Three</li>
+    </ul>
+    <div id="userInfo">
+        Lorem ipsum dolor sit amet. <br>
+        Eos reprehenderit consequatur officiis voluptas. <br>
+        Delectus sequi voluptas cupiditate veritatis? <br>
+        Quis aliquid corporis sit at? <br>
+        Amet iste asperiores ipsum totam. <br>
+    </div>
+
+    <p class="dhaval"> This is Para 1</p>
+    <p id="pink"> This is para 2</p>
+    <p id="para3" class="shivam"> This is para 3</p>
+
+</body>
+</html>
