@@ -320,4 +320,4 @@ Selectors
    a. decendent selector (space)
    b. child selector (>)
    c. adjacent sibing selector (+)
-   d. general sibling selector (~)
+   d. general sibling selector (~)  
