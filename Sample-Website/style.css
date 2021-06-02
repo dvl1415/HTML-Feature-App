@@ -1,0 +1,19 @@
+
+body{
+    font-size:18px;
+    color: darkcyan;
+    font-family: 'Courier New', Courier, monospace;
+}
+h1,h2 {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+p{
+    text-align: justify;
+}

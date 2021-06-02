@@ -1,0 +1,10 @@
+@import url("../../home.css");
+#Para1{
+    width: 35%;
+    text-align: justify;
+    background-color: aquamarine;
+    padding: 15px;
+    font-style: italic;
+    border: 2px dotted green;
+    border-radius: 10px;
+}
