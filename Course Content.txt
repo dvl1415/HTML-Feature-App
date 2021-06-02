@@ -32,8 +32,8 @@ CSS3
 13.	Responsive Design 
 14.	Media Queries
 15.	Introduction to Bootstrap 
-JavaScript
 
+JavaScript
 1.	Introduction
 2.	Hoisting
 3.	Typing ( Dynamic, Static)

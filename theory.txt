@@ -211,7 +211,7 @@ Span is used anywhere, this is a general container for any inline content
 
 HTML DOM ( Document Object Model)
 ----------------------------------
-When page is loaded, browser creates a docuemnt object Model of the page 
+When page is loaded, browser creates a document object Model of the page 
 
 Usage: With HTML DOM Javascript can access all the elements of HTML Document
        
@@ -252,7 +252,7 @@ HTML Class
 -----------
 This is an attribute which is used to specify a class for an HTML element
 
-Multiplw HTML elements can share same class 
+Multiple HTML elements can share same class 
 
 HTML Responsive
 ---------------
@@ -265,7 +265,7 @@ To create responsive website we need <meta> tag
 
 <meta name="viewport" content="width=device-width", intial scale 1.0">
 
-This will set the viewport of your page whivh will give browser instructions on how
+This will set the viewport of your page which will give browser instructions on how
 to control page diemsnsions and scaling.
 
 meta - Elelment Speicfy the charcter set, page description, keywords, 
