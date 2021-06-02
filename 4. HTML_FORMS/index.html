@@ -17,7 +17,7 @@
 <body>
     <div class="container">
         <h1> -------------->HTML Forms<-------------- </h1> <br>
-        <form>
+        <form action="/" method="POST">
             <h4>This is an example of single line input:</h4>
            <b>Given Name:</b> <input type="text" name="firstName" class="form-control w-50"
                                 placeholder="Enter Given Name" maxlength="10" required> <br>
@@ -64,10 +64,30 @@
             </select> <br> <br>
 
             <h4>This is File Control</h4>
-            <input type="file" name="Upload" accept="image/*"> <br> <br>
-            <button class="btn btn-primary">Submit</button>
+            <b>Select PDF File:</b> <input type="file" name="Upload" accept="image/*" 
+                                        class="form-control w-50"> <br> <br>
+
+            <h4>This is Button Control</h4>
+            <button class="btn btn-primary">Submit</button> <br> <br> <br>
+            <input type="button" value="Add User" class="btn btn-primary">
+            <input type="reset" value="Reset" class="btn btn-warning">
+            <input type="submit" value="Submit" class="btn bg-success" onclick="stopPageRefresh(event)"> <br> <br>
+            <input type="image" src="../Images/NetFlix.PNG" width="100" onclick="return callme()"> <br>
+            <input type="hidden" id="userid" name="page" value="{name:'Hello'}">
         </form>
     </div>
+    <script>
+        function callme(){
+            console.log('Hello, did you click image button ?')
+        }
+
+        function stopPageRefresh(event){
+            console.log(`Stopped Page to get refresh`)
+            event.preventDefault()
+            document.getElementById("userid").value = {name:'Dhaval'}
+        }
+    </script>
+
     <br> <br> <br> <br> <br> <br>
 </body>
 </html>

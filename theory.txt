@@ -146,7 +146,7 @@ HTML FORM Controls
 5. File Control
 6. Hidden Control - Hides the data inside the page which later can be used to pass to server
 7. Clickable button
-8. Submt and reset Button 
+8. Submit and reset Button 
 
 Block Level Element and Inline Element
 --------------------------------------
