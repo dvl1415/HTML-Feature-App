@@ -1,4 +1,5 @@
-@import url("../../home.css");
+/* @import url("../../home.css"); */
+@import "../../Main/main.css";
 #Para1{
     width: 35%;
     text-align: justify;
