@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background Clip</title>
+    <style>
+        #example1{
+            border: 10px dashed black;
+            padding: 5px;
+            background-image: linear-gradient(blue, greenyellow);;
+            background-clip: border-box;
+        }
+        #example2{
+            border: 10px dashed black;
+            padding: 5px;
+            background-image: linear-gradient(crimson, cadetblue);
+            background-clip: padding-box;
+        }
+        #example3{
+            border: 10px dashed black;
+            padding: 5px;
+            background-image: linear-gradient(red ,yellow);
+            background-clip: content-box;
+        }
+    </style>
+<body>
+    <h1>The Background Clip Property</h1>
+    <p>
+        The background-clip property defines how far
+        the back ground should extend within element
+    </p>
+    <p>
+        Background-clip: border-box(This is Default One)
+    </p>
+    <div id="example1">
+        <p>
+            The background extend behind the border
+        </p>
+    </div>
+    <p>
+        Background-clip: Padding Box
+    </p>
+    <div id="example2">
+        <p>
+            The background extends to the inside edge of the border
+        </p>
+    </div>
+    <p>
+        Background-clip: Content-Box
+    </p>
+    <div id="example3">
+        <p>
+            The background extends to the edge of the content box
+        </p>
+    </div>
+    <p>
+        Background-clip: Property is not supported in Internt Explorer 8 and earlier versions;
+    </p>
+</body>
+</html>

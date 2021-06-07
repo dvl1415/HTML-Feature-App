@@ -1,0 +1,5 @@
+comment code - Ctrl + k + c 
+uncomment code - Ctrl + k + u 
+create copy of the code - alt +shift + down arrow mark 
+#box$*4>h3{Heading$}+p>lorem20 - create four div with id dynamically added and with h3 and p  with some conetent
+ctrl + shift + L - Multiple Cusror to same content

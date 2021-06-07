@@ -1,0 +1,7 @@
+1. attaching the text files /csv/ xls file to anchor tag 
+2. Implement the scrollbar inside dropdown
+3. adding eye symbol to password input
+4. Float and changing the shape of 
+5. Navigation between pages 
+6. Menus for Home Page
+7. create a circle , trainagle and square, eclipse 
