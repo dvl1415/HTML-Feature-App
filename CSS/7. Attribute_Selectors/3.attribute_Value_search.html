@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attribute value specific word selector</title>
+    <style>
+        a[title~="Server"]{
+            background-color: yellow;
+        }
+        a[title~="Frontend"]{
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <a href="https://angular.io/" title="Web tech">Angular</a> <br>
+    <a href="https://nodejs.org/en/" title="Server Side">NodeJS</a> <br>
+    <a href="https://reactjs.org/" title="Web tech">ReactJS</a> <br>
+    <a href="https://getbootstrap.com/" title="Frontend tech">Bootstrap</a> <br>
+</body>
+</html>
