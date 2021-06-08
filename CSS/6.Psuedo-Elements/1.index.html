@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Elements</title>
+    <style>
+        p.one::first-line {
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+
+        p.two::first-letter {
+            color: blue;
+            font-size: xx-large;
+        }
+        span.inline::first-line {
+            color: #ff0000;
+            font-variant: small-caps;
+        }
+        p.intro::first-letter {
+            color: crimson;
+            font-size: 200%;
+        }
+        .multiple::first-letter {
+            color: red;
+            font-size: xx-large;
+        }
+
+        .multiple::first-line {
+            color: blue;
+            font-variant: small-caps;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        You can use the ::firt-line pseduo element to add a special effect to the first line of the text.
+    </p>
+    <p class="two">
+        You can use the ::firt-line pseduo element to add a special effect to the first line of the text.
+    </p>
+    <span class="inline">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quas rem dolorum cum magnam commodi repudiandae iste eveniet ab eum.</span>
+
+    <p class="intro">
+        This is an introduction
+    </p>
+    <p class="multiple">
+        This is a pragraph with some text. A this is additional text.This is a pragraph with some text. A this is additional text.
+    </p>
+</body>
+</html>

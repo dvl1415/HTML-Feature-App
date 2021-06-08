@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>After Psuedo Elements</title>
+    <style>
+        h1:after{
+            content: "Who are you? ";
+        }
+        div:after{
+             content: url("../../Images/Angular.png");
+        }
+        .one:after{
+            content: "Welcome";
+            color: red;
+            font-size: 200%;
+        }
+        .two:after{
+            content: "Training";
+            color: blue;
+            font-size: 200%;
+        }
+    </style>
+</head>
+<body>
+    <p class="one">
+        to Canada
+    </p>
+    <p class="two">
+        will be provided
+    </p>
+    <h1>This is Heading</h1>
+    <p>
+        The ::after Psuedo elements insert content after the content of an element 
+    </p>
+    <h1>This is another heading</h1>
+
+    <div>
+        This is Div
+    </div>
+</body>
+</html>
