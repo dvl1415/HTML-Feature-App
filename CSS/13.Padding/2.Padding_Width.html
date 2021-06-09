@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Padding Element Width</title>
+    <style>
+        div.para1{
+            width: 300px;
+            background-color: yellow;
+        }
+        div.para2{
+            /* If border box is applied then total h*W = total size of the nox that includes everything padding, margin everything*/
+            width: 300px;
+            height: 250px;
+            padding: 25px;
+            background-color: cadetblue;
+            box-sizing: border-box;
+            border: 50px solid blue;
+        }
+        div.para3{
+            /* If border box is applied then total h*W = total size of the nox that includes everything padding, margin everything*/
+            display: block;
+            margin: 10px;
+            width: 300px;
+            height: 250px;
+            padding: 25px;
+            background-color: cadetblue;
+            border: 50px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Padding and Element Width</h2>
+    <div class="para1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate alias iure perferendis! Eaque dicta aliquam nobis labore officia nisi veniam.</div>
+    <div class="para2">
+        Total width is 350px even though if you apply margin padding
+    </div>
+    <div class="para3">
+        Total width is 350px*250 and If I apply padding, margin still total width will be the same. 
+    </div>
+</body>
+</html>

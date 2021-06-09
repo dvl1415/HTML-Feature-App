@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Float Example</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Courier New', Courier, monospace;
+            line-height: 1.4em;
+        }
+        .container{
+            max-width: 960px;
+            margin:auto;
+        }
+        .box{
+            background-color:aliceblue;
+            border: 1px solid black;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+        .box p{
+            text-align: left;
+            text-align: right;
+            text-align: center;
+        }
+        #box-2 {
+            float: left;
+            width: 70%;
+        }
+        #box-3 {
+            float: right;
+            width: 70%;
+        }
+        #box-4{
+            float: left;
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="box-1" class="box">
+            <h3>Heading One</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio unde harum corporis non in neque minus eos modi maxime.</p>
+        </div>
+        <div id="box-2" class="box">
+            <h3>Heading Two</h3>
+            <p>Quae suscipit nobis incidunt quo quod nisi, itaque, labore ipsum ad cumque rem. Aliquam similique exercitationem esse totam ad cumque?</p>
+        </div>
+        <div id="box-3" class="box">
+            <h3>Heading Three</h3>
+            <p>Alias vitae ipsa voluptas, laborum labore distinctio odio ea impedit aperiam eius laudantium eos dolorum sed, dolorem dicta, iusto quibusdam?</p>
+        </div>
+        <div id="box-4" class="box">
+            <h3>Heading Four</h3>
+            <p>Alias vitae ipsa voluptas, laborum labore distinctio odio ea impedit aperiam eius laudantium eos dolorum sed, dolorem dicta, iusto quibusdam?</p>
+        </div>
+    </div>
+</body>
+</html>
