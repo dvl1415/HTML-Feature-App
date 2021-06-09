@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Float Example</title>
+    <title>Float Example 1</title>
     <style>
+        .navbar{
+            list-style: none;
+            margin: 0px;
+            padding: 0px;
+            background-color: lightblue;
+            border-radius: 5px;
+            overflow: auto;
+        }
+        .navbar li{
+            float: left;
+
+        }
+        .navbar li a {
+            display: inline-block;
+            color: white;
+            padding: 15px 20px;
+            font-size: 18px;
+            text-decoration: none;
+        }
+
+    .navbar li a:hover{
+        background-color:lightblue;
+        color: lightpink;
+    }
         *{
             box-sizing: border-box;
         }
@@ -44,6 +68,12 @@
 </head>
 <body>
     <div class="container">
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
         <div id="box-1" class="box">
             <h3>Heading One</h3>
             <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A odio unde harum corporis non in neque minus eos modi maxime.</p>
