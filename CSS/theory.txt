@@ -436,3 +436,7 @@ it can havebelow values
 
 ease - specifies a transition effect with a slow start then fast and then end slowly
 linear - specifies transition effect with same speed from start to end
+
+VMAX & VMIN: if you say h=max and w=min then hight take max length of the viewport
+if yopu say h=min and v=max then width take max length of the viewport
+While percentage is totally opposite, it's depend on the parent elements hight and width

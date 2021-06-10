@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EM and REM</title>
+    <style>
+       html{
+        font-size: 10px;
+       } 
+       body{
+           font-size:20px;
+       }
+       p{
+           font-size: 3rem;/*rem multiplies through the route sizing, which is html*/
+       }
+       div{
+           font-size:1em; /*em multiplies through the parent, which is body*/
+       }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis.</p>
+    <div> Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam, quis.</div>
+</body>
+</html>

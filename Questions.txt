@@ -14,3 +14,7 @@
 14. Review the Viewport again/ Not clearly understand
 15. Ex and ch not working
 16. HTML Lists- Texx beside the image
+17. VMAX/VMIN get better understanding with that
+18. Display: Flex
+19. grid
+20. Responsive and Media query
