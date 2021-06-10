@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transition Timing Functions</title>
+    <style>
+        div{
+            width: 100px;
+            height: 100px;
+            background-color:red;
+            margin-bottom: 10px;
+            transition: 2s;
+        }
+        div:hover{
+
+            width: 100%;
+        }
+        .next {
+            float: right;
+            background-color: lightcyan;
+        }
+        #div-1{
+            background-color: aqua;
+            transition-timing-function: linear;
+        }
+        #div-2{
+            background-color: green;
+            transition-timing-function: ease;
+        }
+        #div-3{
+            background-color: cadetblue;
+            transition-timing-function: ease-in;
+        }
+        #div-4{
+            background-color:lightgrey;
+            transition-timing-function: ease-out;
+        }
+        #div-5{
+            background-color: goldenrod;
+            transition-timing-function: ease-in-out;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transition timing function</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem distinctio ab magni suscipit animi magnam harum ex quasi cupiditate autem!</p>
+    <div id="div-1">Linear</div>
+    <div class="next">Box</div>
+    <div id="div-2">ease</div>
+    <div id="div-3">ease-in</div>
+    <div id="div-4">ease-out</div>
+    <div id="div-5">ease-in-out</div>
+</body>
+</html>
