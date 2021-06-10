@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Index</title>
+    <style>
+        .para2,.para3,.para4{
+            width: 100px;
+            height: 100px;
+            position: absolute;
+            top: 0;
+        }
+        .para1{
+            width: 100px;
+            height: 100px;
+            z-index:-1;
+        }
+        .para2{
+            left: 35px;
+            z-index:2;
+        }
+        .para3{
+            left: 50px;
+            z-index:3;
+        }
+        .para4{
+            left: 75px;
+            z-index:4;
+        }
+        .para1{background-color: red}
+        .para2{background-color: greenyellow;}
+        .para3{background-color: blue;}
+        .para4{background-color: yellow;}
+
+    </style>
+</head>
+<body>
+    <div class="para1">One</div>
+    <div class="para2">two</div>
+    <div class="para3">three</div>
+    <div class="para4">four</div>
+</body>
+</html>

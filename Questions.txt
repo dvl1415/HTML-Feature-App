@@ -11,3 +11,6 @@
 11. position sticky
 12. Z-index
 13, Horizontal Unordered List
+14. Review the Viewport again/ Not clearly understand
+15. Ex and ch not working
+16. HTML Lists- Texx beside the image
