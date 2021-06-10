@@ -6,4 +6,8 @@
 6. Menus for Home Page
 7. create a circle , trainagle and square, eclipse
 8. Font Syntax for the all font styles
-9. Multiple search for the Attribute whole search  
+9. Multiple search for the Attribute whole search
+10. When we can use the static and relative and absolute postion---Cleared  
+11. position sticky
+12. Z-index
+13, Horizontal Unordered List

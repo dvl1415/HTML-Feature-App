@@ -322,3 +322,117 @@ length -  Defines the height in px,cm etc
 
 initial - Set height and width to its deafult value
 inherit - The height and width will be inherited from its parent value
+
+Position Property
+------------------
+Specifies the type of positioning method used for an element
+
+* static
+* relative
+* absolute
+* fixed
+* sticky
+
+Position : static
+--------------------
+HTML elemens are positioned static by deafult
+Static positioned elements are not affected by the top, right, bottom, left
+Always positioned according the normal flow of the page
+
+Position: Relative
+--------------------
+An element with position:relative is positoned relative to its normal position
+
+
+Z-index
+-----------
+Z-index property specifies stack order of an element ( e.g z-index : value (order))
+
+An element with greater stack order is always in front of an element with lower stack order
+
+This only work with below positioned elements 
+
+position: , absolute, relative, fixed, sticky
+
+It can have negative values
+
+it can't have decimal values
+
+
+CSS Units
+----------
+
+Absolute 
+-----------
+pixels(px)
+inches(in)
+centimeters (cm)
+millimeters(mm)
+points(pt)
+picas(pc)
+
+Relative
+----------
+
+percentages (%)
+font-sizes(em & rem)
+character-sizes(ex & ch)
+viewport Dimensions (vw & vh)
+viewport max(vmax)
+viewport min(vmin)
+
+Relative Units are based on :
+------------------------------
+1. The parent dimensions(%)
+2. The currently declared font-attriburtes (em, rem, ex, ch)
+3. The Viewport Dimensions (Vw, Vh, Vmin, Vmax)
+
+ex- Relative to the x-height of the current font (rarely used)
+
+   x-height is roughly the height of lowercase letters such as a,c,m, o
+
+Absolute Units
+-----------------
+1in = 96px
+1cm = 37.8px
+1mm= 0.1cm = 3.78px
+
+1em==16px==0.17in==12pt==1pc==4.2mm==0.42cm
+
+CSS Gradients
+-------------
+Gradients display the comibinations of two or more Colors
+
+types
+------
+Linear Gradients (down/up/right/left/diagonally)
+Radient Gradients
+
+Linear Gradients
+-----------------
+Top-to-Bottom (This is default)
+
+To Apply gradients we use background-Image
+
+Radial Gradients
+-----------------
+This differ from liner gradient in that they start at a single point and emanate
+outwards
+
+CSS Transistions
+----------------
+Allows us to change property values smmothly over given duration
+
+Transistion
+transistion-delay
+transistion-duration
+
+
+transition-timing-function
+----------------------------
+Specifies the spped curve of the transition effect
+
+it can havebelow values
+
+ease - specifies a transition effect with a slow start then fast and then end slowly
+linear - specifies transition effect with same speed from start to end

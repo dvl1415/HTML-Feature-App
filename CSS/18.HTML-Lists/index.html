@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Lists</title>
+    <style>
+        ul.ul-circle{
+            list-style-type: circle;
+            }
+        ul.ul-square{
+            list-style-type: square;
+            }
+        ol.ol-upperroman{
+            list-style-type: upper-roman;
+        }
+        ol.ol-lower-alpha{
+            list-style-type: lower-alpha;
+        }
+        li.one{
+            list-style-image: url("../../Images/Angular.png");
+            margin: 100px;
+        }
+        li.two{
+            list-style-image: url("../../Images/Node_JS.png");
+            margin: 500px;
+        }
+        li.three{
+            list-style-image: url("../../Images/ReactJS.png");
+            margin: 500px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Unordered Lists</h1>
+    <ul class="ul-circle">
+        <li>Angular</li>
+        <li>NodeJS</li>
+        <li>ReactJS</li>
+    </ul>
+   
+    <ul class="ul-square">
+        <li>Github</li>
+        <li>Docker</li>
+        <li>Kubernetes</li>
+    </ul>
+
+    <h1>Ordered Lists</h1>
+    <ol class="ol-upperroman">
+        <li>Wndows</li>
+        <li>Linux</li>
+        <li>Mac</li>
+    </ol>
+    <ol class="ol-lower-alpha">
+        <li>VSCode</li>
+        <li>Sublime</li>
+        <li>Atom</li>
+    </ol>
+
+    <ul class="img">
+        <li class="one">Angular</li>
+        <li class="two">NodeJS</li>
+        <li class="three">ReactJS</li>
+    </ul>
+</body>
+</html>
