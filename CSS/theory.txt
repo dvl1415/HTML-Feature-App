@@ -440,3 +440,23 @@ linear - specifies transition effect with same speed from start to end
 VMAX & VMIN: if you say h=max and w=min then hight take max length of the viewport
 if yopu say h=min and v=max then width take max length of the viewport
 While percentage is totally opposite, it's depend on the parent elements hight and width
+
+CSS 2D Transofrmations
+----------------------
+Allows us to move, rotate, scale and skew elements 
+
+transofrm is the property respoisnible for Transformations
+
+- transalate() - moves an element from its current position (according and X-axis and Y axis)
+- rotate()
+- scaleX
+- scaleY()
+- scale()
+- skewX()
+- skewY()
+- skew()
+- matrix
+
+CSS Flex
+---------
+Flex - is a shorthand for flex-grow, flex-shrink and flex-basis

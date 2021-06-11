@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root{
+            --div-width:300px;
+            --div-height:150px;
+            --div-margin-bottom:20px;
+            background-color: yellowgreen;
+        }
+        /* body{
+            --div-width:300px;
+            --div-height:150px;
+            --div-margin-bottom:20px; 
+        } */
+        /* div{
+            width: 350px;
+            height: 150px;
+            margin-bottom: 20px;
+        } */
+        .box1{
+            background-color:teal;
+        }
+        .box2{
+            background-color:red;
+        }
+        .box3{
+            background-color:crimson;
+        }
+        div{
+            width:var(--div-width);
+            height: var(--div-height);
+            margin-bottom: var(--div-margin-bottom);
+        }
+    </style>
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur quidem quaerat ad sit quas nisi aliquam nam voluptatem architecto unde.</p>
+
+    
+</body>
+</html>

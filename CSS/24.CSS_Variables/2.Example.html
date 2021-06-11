@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Example CSS Variable</title>
+    <style>
+        :root{
+            --box-background-color:crimson;
+            --box-height:200px;
+            --w:300px;
+            --div-font-color:white;
+        }
+        .one{
+            background-color: var(--box-background-color);
+            height: var(--box-height);
+            width: var(--w);
+            color: var(--div-font-color);
+        }
+        p{
+            width: 200px;
+            height: 150px;
+            background-color: var(--box-background-color);
+        }
+    </style>
+</head>
+<body>
+    <div class="one">This Div using CSS Variable Properties</div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum cumque odio officiis esse ipsum hic exercitationem consectetur corrupti laborum tenetur?</p>
+</body>
+</html>
