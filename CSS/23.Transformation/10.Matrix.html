@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Matrix</title>
+    <style>
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: yellow;
+            border: 1px solid black;
+            margin-bottom: 20px;
+        }
+        .one{
+            transform:matrix(1,-0.3, 0, 1, 0, 0);
+        }
+        .two{
+            transform: matrix(1, 0, 0.5, 1, 150, 0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Matrix Method (Scale X, Scale Y, Skew X, Skew Y, Translate X, Translate Y)</h1>
+    <div>This is Regular DIV</div>
+    <div class="one">Using Matrix</div>
+    <div class="two">Using another matrix</div>
+</body>
+</html>

@@ -18,3 +18,6 @@
 18. Display: Flex
 19. grid
 20. Responsive and Media query
+21. background image behind navigation bar 
+22.arrangemnt of div position next to each other while zooming in browser
+23. Review translate, transform, skew, In short last lecture

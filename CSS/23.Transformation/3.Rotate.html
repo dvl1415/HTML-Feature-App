@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rotate</title>
+    <style>
+        div{
+            width: 300px;
+            height: 100px;
+            background-color: red;
+            border: 1px solid;
+            margin-bottom: 10px;
+            transition: transform 2s;
+        }
+        .box{
+            transform: rotate(20deg);
+        }
+        .box1:hover{
+            transform: translate(50px, 100px) rotate(-50deg);
+        }
+    </style>
+</head>
+<body>
+    <h1>Rotate Method</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ipsam, dolores.</p>
+    <div>This is Regular Div</div>
+    <div class="box">This is rotated</div>
+    <div class="box1">This is rotated</div>
+</body>
+</html>
