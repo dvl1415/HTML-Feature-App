@@ -21,3 +21,4 @@
 21. background image behind navigation bar 
 22.arrangemnt of div position next to each other while zooming in browser
 23. Review translate, transform, skew, In short last lecture
+24. Text Decoration - list style / None what is the difference between them 
