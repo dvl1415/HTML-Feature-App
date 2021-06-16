@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <title>Bootstrap Basics</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Webform Using Bootstrap</h1>
+        <form>
+            <div class="form-group">
+                <label>First Name</label>
+                <input type="text" name="fname" class="form-control w-50">
+            </div>
+            <div class="form-group">
+                <label>Last Name</label>
+                <input type="text" name="lname" class="form-control w-50">
+            </div>
+            <div class="form-group">
+                <label>E-Mail</label>
+                <input type="email" name="email" class="form-control w-50">
+            </div>
+            <br>
+            <div class="form-group">
+                <label>Gender</label>
+                <input type="radio" name="gender">Male
+                <input type="radio" name="gender">Female
+            </div> <br>
+            <div class="form-group">
+                <label>City</label>
+                <select name="" id="" class="form-control w-50">
+                    <option value="">Kitchener</option>
+                    <option value="">Waterloo</option>
+                    <option value="">Cambridge</option>
+                </select>
+            </div>
+            <br>
+            <div class="form-group">
+                <label>E-Mail</label>
+                <input type="checkbox" name="email">
+            </div>
+            <br>
+            <button class="btn btn-primary">Submit</button>
+            <button class="btn btn-warning">Reset</button>
+            <button class="btn btn-danger">Danger</button>
+        </form>
+    </div>
+    <div class="container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>E-Mail</th>
+                    <th>City</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Dhaval</td>
+                    <td>dvl1415@icloud.com</td>
+                    <td>Kitchener</td>
+                </tr>
+                <tr>
+                    <td>Shivam</td>
+                    <td>dvl1415@icloud.com</td>
+                    <td>Kitchener</td>
+                </tr>
+                <tr>
+                    <td>Pinkes</td>
+                    <td>dvl1415@icloud.com</td>
+                    <td>Kitchener</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <br><br>
+    <div class="container">
+        <button type="button" class="btn btn-primary">Primary</button>
+        <button type="button" class="btn btn-secondary">Secondary</button>
+        <button type="button" class="btn btn-success">Success</button>
+        <button type="button" class="btn btn-danger">Danger</button>
+        <button type="button" class="btn btn-warning">Warning</button>
+        <button type="button" class="btn btn-info">Info</button>
+        <button type="button" class="btn btn-light">Light</button>
+        <button type="button" class="btn btn-dark">Dark</button>
+        <button type="button" class="btn btn-link">Link</button>
+    </div>
+    <br><br><br>
+    <div class="container">
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+              Dropdown button
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </div>
+    </div>
+    <br><br>
+</body>
+</html>

@@ -36,7 +36,7 @@ p{
     color: #fff;
 }
 
-#navbar h1{
+#navbar .logo{
     float: left;
     padding-top: 20px;
 }
@@ -71,11 +71,14 @@ p{
 
 #showcase{
     background: url('../Images/showcase.jpg') no-repeat center /cover;
-    height: 600px;
+    height: 100%;
+}
+
+#showcase .showcase-content{
+    color: #fff;
     text-align: center;
     padding-top: 170px;
 }
-
 #showcase .showcase-content h1{
     font-size: 60px;
     line-height: 1.7em;
@@ -102,6 +105,7 @@ p{
     background-color: #333;
     padding:13px 20px;
     border: none;
+    cursor: pointer;
 }
 
 .btn:hover{
@@ -203,10 +207,11 @@ p{
 
 .large-heading{
     font-size: 40px;
+    line-height: 1.2em;
 }
 
 #testimonials{
-    height: 600px;
+    height: 100%;
     background: url('../Images/test-bg.jpg') no-repeat center /cover;
     padding: 100px;
 }
@@ -244,16 +249,16 @@ p{
 #contact-form textarea{
     width: 60%;
     padding: 10px;
-    border: 2px solid #ddd;
-    border-radius: 10px ;
+    border: 2px solid #333;
+    border-radius: 20px;
 }
 
 #contact-form textarea{
     height: 200px;
 }
 
-#contact-form input:hover,
-#contact-form textarea:hover{
+#contact-form input:focus,
+#contact-form textarea:focus{
     outline: none;
-    border-color: #f7c08a;
+    border-color: lightblue;
 }
